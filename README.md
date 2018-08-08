@@ -3,7 +3,7 @@
 Here we provide the code and data for reproducing the results in Fasiolo et al. (2018). In particular:
 
 - `UKData.Rdata` contains the data set on UK electricity demand;
-- `Code_for_model_fitting.R` contains the code for fitting the three GAM model considered in the paper;
+- `Code_for_model_fitting.R` contains the code for fitting the three GAM models considered in the paper;
 - `Code_for_plots.R` contains the `mgcViz` code that takes the three fitted GAM objects and produces the plots shown in the paper.
 - `mgcViz.tar.gz` is the source code for the `mgcViz` R package (which is also available from CRAN).
 
