@@ -1,7 +1,4 @@
-<header>
-Code for ``Scalable visualisation methods for modern Generalized Additive Models''
-============
-</header>
+#### Code for ``Scalable visualisation methods for modern Generalized Additive Models''
 
 Here we provide the code and data for reproducing the results in Fasiolo et al. (2018). In particular:
 
@@ -12,6 +9,6 @@ Here we provide the code and data for reproducing the results in Fasiolo et al. 
 
 Running the code in `Code_for_model_fitting.R` can take quite a lot of time, especially for the most complex shash GAM model. Please email the first author to request a copy of the fitted GAM objects (unfortunately these files exceed Github's file size limits).
 
-### References
+#### References
 
 Fasiolo M., Nedellec R., Goude Y. and Wood S. (2018), ``Scalable visualisation methods for modern Generalized Additive Models'', submitted.
