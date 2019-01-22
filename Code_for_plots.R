@@ -319,7 +319,7 @@ figure_3_and_4[[5]] <- plot(sm(fit_profile, 1), trans = function(.x) .x + coef(f
                        scale_colour_discrete("Day",
                                              labels=c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")) + 
                        theme(legend.position = "bottom", legend.key.width = unit(0.5, "cm")) + 
-                       guides(colour = guide_legend(nrow = 1)) + labs(y = "Load (MW)")
+                       guides(colour = guide_legend(nrow = 1)) + labs(y = "Load (MW)", x = "I")
 
 fig_layout <- matrix(c(1,1,2,2,
                        3,3,4,4,
