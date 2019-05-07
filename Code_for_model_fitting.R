@@ -10,6 +10,9 @@
 library(mgcViz)
 library(RhpcBLASctl); blas_set_num_threads(1) # Optional
 
+library(devtools)
+install_github("mfasiolo/mgcFam")
+
 # Load UK load data
 load("UKData.RData")
 
